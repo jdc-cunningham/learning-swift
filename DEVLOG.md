@@ -89,4 +89,16 @@ Alright will take a snack break soon but need to get back to this, focus on the 
 
 hmm I'm getting antsy, want to build something
 
+11:13 AM break to do something else briefly
 
+12:36 PM well I definitely got sidetracked
+
+I'll work on finishing this section for today
+
+https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
+
+Ehh... I gotta stop here
+
+There is an important step to learn next, the jumping from one view to another
+
+I'm losing interest/thinking of other things
