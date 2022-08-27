@@ -47,5 +47,46 @@ Damn there's a lot
 
 9:26 AM
 
+10:06 AM
+
+Making good progress, I'm going to skip the prettying stuff just get the basics down of how to build something
+
+10:29 AM
+
+I should note I'm not really 100% following this tutorial, so my end result may be broken/not matching what the tutorial has.
+
+I'm just learning the gist of things
+
+For example I skipped mapkit
+
+10:35 AM
+
+getting distracted, learning is not fun, I'd rather build, find out
+
+I might do a fun project later on, free form/free style, it's JS related
+
+A chrome extension that brings things up to my attention
+
+Reminders, things I was looking at
+
+These suck because when you inject content into a dom on any website, they could potentially pick up the changes/store it but idk... it's a nicer UI experience than the drop down from the CE icon click which is secure
+
+It would be nice if you could somehow encrypt that layer and while it would be readable visually you could not figure out what it said from the DOM
+
+A picture would work but the picture itself would give away the info
+
+Maybe an injected iframe
+
+That would be some work though, iframe, https, prep the info, at this point it could just be plain text
+
+I'll work on finishing this tutorial set then I'll work on that
+
+It's all part of my unified notetaking/self learning/improving/organizaing thing
+
+10:53 AM
+
+Alright will take a snack break soon but need to get back to this, focus on the tutorial
+
+hmm I'm getting antsy, want to build something
 
 
