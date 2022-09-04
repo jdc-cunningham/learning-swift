@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B5E53C28C52EBD0081461E /* PopupAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E53B28C52EBD0081461E /* PopupAlarmApp.swift */; };
+		16B5E53E28C52EBD0081461E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E53D28C52EBD0081461E /* ContentView.swift */; };
+		16B5E54028C52EC10081461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B5E53F28C52EC10081461E /* Assets.xcassets */; };
+		16B5E54328C52EC10081461E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B5E54228C52EC10081461E /* Preview Assets.xcassets */; };
+		16B5E54E28C52EC20081461E /* PopupAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E54D28C52EC20081461E /* PopupAlarmTests.swift */; };
+		16B5E55828C52EC20081461E /* PopupAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E55728C52EC20081461E /* PopupAlarmUITests.swift */; };
+		16B5E55A28C52EC20081461E /* PopupAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B5E55928C52EC20081461E /* PopupAlarmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B5E54A28C52EC20081461E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B5E53028C52EBD0081461E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B5E53728C52EBD0081461E;
+			remoteInfo = PopupAlarm;
+		};
+		16B5E55428C52EC20081461E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B5E53028C52EBD0081461E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B5E53728C52EBD0081461E;
+			remoteInfo = PopupAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B5E53828C52EBD0081461E /* PopupAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B5E53B28C52EBD0081461E /* PopupAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAlarmApp.swift; sourceTree = "<group>"; };
+		16B5E53D28C52EBD0081461E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16B5E53F28C52EC10081461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16B5E54228C52EC10081461E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16B5E54428C52EC10081461E /* PopupAlarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopupAlarm.entitlements; sourceTree = "<group>"; };
+		16B5E54928C52EC20081461E /* PopupAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B5E54D28C52EC20081461E /* PopupAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAlarmTests.swift; sourceTree = "<group>"; };
+		16B5E55328C52EC20081461E /* PopupAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B5E55728C52EC20081461E /* PopupAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAlarmUITests.swift; sourceTree = "<group>"; };
+		16B5E55928C52EC20081461E /* PopupAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B5E53528C52EBD0081461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E54628C52EC20081461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E55028C52EC20081461E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B5E52F28C52EBD0081461E = {
+			isa = PBXGroup;
+			children = (
+				16B5E53A28C52EBD0081461E /* PopupAlarm */,
+				16B5E54C28C52EC20081461E /* PopupAlarmTests */,
+				16B5E55628C52EC20081461E /* PopupAlarmUITests */,
+				16B5E53928C52EBD0081461E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16B5E53928C52EBD0081461E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B5E53828C52EBD0081461E /* PopupAlarm.app */,
+				16B5E54928C52EC20081461E /* PopupAlarmTests.xctest */,
+				16B5E55328C52EC20081461E /* PopupAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B5E53A28C52EBD0081461E /* PopupAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				16B5E53B28C52EBD0081461E /* PopupAlarmApp.swift */,
+				16B5E53D28C52EBD0081461E /* ContentView.swift */,
+				16B5E53F28C52EC10081461E /* Assets.xcassets */,
+				16B5E54428C52EC10081461E /* PopupAlarm.entitlements */,
+				16B5E54128C52EC10081461E /* Preview Content */,
+			);
+			path = PopupAlarm;
+			sourceTree = "<group>";
+		};
+		16B5E54128C52EC10081461E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16B5E54228C52EC10081461E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16B5E54C28C52EC20081461E /* PopupAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				16B5E54D28C52EC20081461E /* PopupAlarmTests.swift */,
+			);
+			path = PopupAlarmTests;
+			sourceTree = "<group>";
+		};
+		16B5E55628C52EC20081461E /* PopupAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16B5E55728C52EC20081461E /* PopupAlarmUITests.swift */,
+				16B5E55928C52EC20081461E /* PopupAlarmUITestsLaunchTests.swift */,
+			);
+			path = PopupAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B5E53728C52EBD0081461E /* PopupAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B5E55D28C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarm" */;
+			buildPhases = (
+				16B5E53428C52EBD0081461E /* Sources */,
+				16B5E53528C52EBD0081461E /* Frameworks */,
+				16B5E53628C52EBD0081461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopupAlarm;
+			productName = PopupAlarm;
+			productReference = 16B5E53828C52EBD0081461E /* PopupAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16B5E54828C52EC20081461E /* PopupAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B5E56028C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarmTests" */;
+			buildPhases = (
+				16B5E54528C52EC20081461E /* Sources */,
+				16B5E54628C52EC20081461E /* Frameworks */,
+				16B5E54728C52EC20081461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B5E54B28C52EC20081461E /* PBXTargetDependency */,
+			);
+			name = PopupAlarmTests;
+			productName = PopupAlarmTests;
+			productReference = 16B5E54928C52EC20081461E /* PopupAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16B5E55228C52EC20081461E /* PopupAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B5E56328C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarmUITests" */;
+			buildPhases = (
+				16B5E54F28C52EC20081461E /* Sources */,
+				16B5E55028C52EC20081461E /* Frameworks */,
+				16B5E55128C52EC20081461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B5E55528C52EC20081461E /* PBXTargetDependency */,
+			);
+			name = PopupAlarmUITests;
+			productName = PopupAlarmUITests;
+			productReference = 16B5E55328C52EC20081461E /* PopupAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B5E53028C52EBD0081461E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					16B5E53728C52EBD0081461E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					16B5E54828C52EC20081461E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 16B5E53728C52EBD0081461E;
+					};
+					16B5E55228C52EC20081461E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 16B5E53728C52EBD0081461E;
+					};
+				};
+			};
+			buildConfigurationList = 16B5E53328C52EBD0081461E /* Build configuration list for PBXProject "PopupAlarm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B5E52F28C52EBD0081461E;
+			productRefGroup = 16B5E53928C52EBD0081461E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B5E53728C52EBD0081461E /* PopupAlarm */,
+				16B5E54828C52EC20081461E /* PopupAlarmTests */,
+				16B5E55228C52EC20081461E /* PopupAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B5E53628C52EBD0081461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B5E54328C52EC10081461E /* Preview Assets.xcassets in Resources */,
+				16B5E54028C52EC10081461E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E54728C52EC20081461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E55128C52EC20081461E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B5E53428C52EBD0081461E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B5E53E28C52EBD0081461E /* ContentView.swift in Sources */,
+				16B5E53C28C52EBD0081461E /* PopupAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E54528C52EC20081461E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B5E54E28C52EC20081461E /* PopupAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B5E54F28C52EC20081461E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B5E55828C52EC20081461E /* PopupAlarmUITests.swift in Sources */,
+				16B5E55A28C52EC20081461E /* PopupAlarmUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16B5E54B28C52EC20081461E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B5E53728C52EBD0081461E /* PopupAlarm */;
+			targetProxy = 16B5E54A28C52EC20081461E /* PBXContainerItemProxy */;
+		};
+		16B5E55528C52EC20081461E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B5E53728C52EBD0081461E /* PopupAlarm */;
+			targetProxy = 16B5E55428C52EC20081461E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16B5E55B28C52EC20081461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16B5E55C28C52EC20081461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		16B5E55E28C52EC20081461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PopupAlarm/PopupAlarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PopupAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16B5E55F28C52EC20081461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PopupAlarm/PopupAlarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PopupAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		16B5E56128C52EC20081461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupAlarm.app/Contents/MacOS/PopupAlarm";
+			};
+			name = Debug;
+		};
+		16B5E56228C52EC20081461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopupAlarm.app/Contents/MacOS/PopupAlarm";
+			};
+			name = Release;
+		};
+		16B5E56428C52EC20081461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PopupAlarm;
+			};
+			name = Debug;
+		};
+		16B5E56528C52EC20081461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RGBHTHY9M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JDCC.PopupAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PopupAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B5E53328C52EBD0081461E /* Build configuration list for PBXProject "PopupAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B5E55B28C52EC20081461E /* Debug */,
+				16B5E55C28C52EC20081461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B5E55D28C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B5E55E28C52EC20081461E /* Debug */,
+				16B5E55F28C52EC20081461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B5E56028C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B5E56128C52EC20081461E /* Debug */,
+				16B5E56228C52EC20081461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B5E56328C52EC20081461E /* Build configuration list for PBXNativeTarget "PopupAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B5E56428C52EC20081461E /* Debug */,
+				16B5E56528C52EC20081461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16B5E53028C52EBD0081461E /* Project object */;
+}
