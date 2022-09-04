@@ -1,3 +1,65 @@
+### 09/04/2022 Sunday
+
+Back on it... yesterday I just f'd off and ate a bunch of crap, played games
+
+So it was a waste in terms of productivity
+
+I'm committing today, no more junk food so I won't crash/feel lethargic
+
+hmm my XCode doesn't support iOS 16 great
+
+There's a way to do it with beta xcode
+
+worth trying out?... I ran the simulated AR thing and it has no camera feed which you probably have to add
+
+Alright... for now I'll stick to the simulator
+
+No... I gotta do it on the device crap
+
+11:05 AM
+
+So I ended up having to enroll in the developer program to download XCode14
+
+Dang... this XCode 14 beta download is taking its time, it ain't on my side
+
+12:14 PM
+
+good... lord... took forever to download, now taking forever to extract ugh
+
+12:46 PM
+
+Alright so it's running, got iPad in developer mode, have to restart it
+
+You need the apple developer account to test it on a real device in my experience
+
+Have to go into settings, general, profile developer app (VPN & device management area)
+
+Allow the app
+
+wow... this is amazing, I mean it's the hello world ARKit but it's so solid!
+
+Damn! I don't see the cube drifting... even with a pile of crap (bunch of objects) it was able to find a surface to bind to
+
+Now I want to see the raw data from the lidar or the points/projected grid
+
+
+
+### 09/03/2022 Saturday
+
+10:14 AM
+
+Been up for a bit, distracted though
+
+Today I'm going to dive straight into the ARKit/lidar stuff
+
+I need to interface with it
+
+Side note I'm editing this devlog with nano through bash ha
+
+So much cool stuff in ARKit like image recognition and ray casting
+
+Whoa 3D space in XCode that's cool
+
 ### 08/27/2022 Saturday
 
 8:57 AM
