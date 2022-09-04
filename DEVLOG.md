@@ -42,7 +42,28 @@ Damn! I don't see the cube drifting... even with a pile of crap (bunch of object
 
 Now I want to see the raw data from the lidar or the points/projected grid
 
+So... in the spirit of the Hackathon I won't dive too deeply into the implementation
 
+I do want to access the lidar data, to see it in real time somehow
+
+I was trying to view the mesh
+
+And also the raw distances...
+
+But I think later on I will switch to GUI development again just to get some practice in on that, there's a basic Mac Alarm popup app I want to 
+make. That's just based on time.
+
+Hey... here's an idea, RTFM lol
+
+scene class includes stuff like collision/raycasting nice
+
+Show all debug
+
+I think I will stop here for the AR/Lidar stuff that's the point of the hackathon is to figure it out
+
+I will work on GUI just to be more familiar on that
+
+So cool though to see that info... I imagine in the future merging it with the VR headset once it's made (Simula VR)
 
 ### 09/03/2022 Saturday
 

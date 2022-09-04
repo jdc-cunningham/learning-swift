@@ -19,6 +19,24 @@ struct ARViewContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
+
+        arView.debugOptions = [
+            .showPhysics,
+            .showStatistics,
+            .showAnchorOrigins,
+            .showAnchorGeometry,
+            .showWorldOrigin,
+            .showFeaturePoints,
+            .showSceneUnderstanding
+        ];
+        
+        // https://stackoverflow.com/questions/64947955/how-to-disable-camera-feed-while-keeping-lidar-debug-mesh
+        // https://developer.apple.com/documentation/realitykit/arview/debugoptions-swift.struct
+        
+        // arView.debugOptions.insert(.showSceneUnderstanding) doesn't work
+        // arViewDebugOptions.showFeaturePoints()
+        // arViewDebugOptions.showSceneUnderstanding()
+
         
         // Load the "Box" scene from the "Experience" Reality File
         let boxAnchor = try! Experience.loadBox()
